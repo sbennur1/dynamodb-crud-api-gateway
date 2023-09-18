@@ -4,7 +4,7 @@ provider:
   name: aws
   runtime: nodejs14yaml.x
   stage: dev
-  region: eu-west-3
+  region: api-south-1
   environment:
     DYNAMODB_TABLE_NAME: ${self:custom.postsTableName}
 
